@@ -13,3 +13,6 @@ http://igorzelmanovich.blogspot.co.il/2013/01/using-typescript-with-existing-pro
 vgood
 https://withouttheloop.com/articles/2014-09-25-converting-to-typescript/
 https://hstefanski.wordpress.com/2015/07/22/converting-an-angular-app-to-typescript/
+
+Online typescript to javascript compiler
+http://infoheap.com/typescript-to-javascript-online-compiler/
