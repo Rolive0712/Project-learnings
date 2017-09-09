@@ -1,6 +1,7 @@
 https://toddmotto.com/walkthrough-to-migrate-an-angular-1-component-to-angular-2/
 http://seanhess.github.io/2013/10/14/angularjs-directive-design.html
 https://glebbahmutov.com/blog/avoid-this-common-angular-refactoring-mistake/
+https://teropa.info/blog/2015/10/18/refactoring-angular-apps-to-components.html
 https://scotch.io/tutorials/making-skinny-angularjs-controllers
 https://stackoverflow.com/questions/15973879/how-to-refactor-angularjs-controllers-with-mostly-common-code
 http://suhairhassan.com/2013/10/21/refactoring-to-angularjs-directive.html
