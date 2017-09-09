@@ -7,7 +7,9 @@ https://stackoverflow.com/questions/15973879/how-to-refactor-angularjs-controlle
 http://suhairhassan.com/2013/10/21/refactoring-to-angularjs-directive.html
 https://www.quora.com/Angular-JS-I-have-a-controller-which-has-more-than-3000-lines-of-code-Is-there-any-way-I-can-split-the-same-controller-in-multiple-files
 
-1.5 move
+http://angular-tips.com/blog/2015/06/using-angular-1-dot-x-with-es6-and-webpack/
+
+1.5 move **************************
 https://juristr.com/blog/2016/06/from-ngcontroller-to-components/
 https://medium.com/@vascofernandes/the-road-to-angular-2-refactoring-angularjs-1-x-applications-for-smoother-upgrade-69c91364bc4c
 https://www.airpair.com/angularjs/posts/component-based-angularjs-directives
