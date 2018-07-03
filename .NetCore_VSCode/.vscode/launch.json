@@ -1,0 +1,56 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Debug in Chrome",
+            "configurations": [
+                ".NET Core Launch (console)",
+                "Launch Chrome"
+            ]
+        }
+    ],    
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.0/DotNetCoreAngular2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": true,
+                "args": "${auto-detect-url}",
+                "windows": {
+                    "command": "cmd.exe",
+                    "args": "/C start ${auto-detect-url}"
+                },
+                "osx": {
+                    "command": "open"
+                },
+                "linux": {
+                    "command": "xdg-open"
+                }
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:5000",
+            "webRoot": "${workspaceRoot}/wwwroot",
+            "sourceMaps": true,
+            "sourceMapPathOverrides": {
+                "/Views": "${workspaceRoot}/Views"
+            }
+        }
+    ]
+}
